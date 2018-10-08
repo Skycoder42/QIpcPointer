@@ -1,0 +1,29 @@
+{
+    "dependencies": [
+    ],
+    "license": {
+        "file": "LICENSE",
+        "name": "BSD_3_CLAUSE"
+    },
+    "prcFile": "",
+    "priFile": "qipcpointer.pri",
+    "priIncludes": [
+    ],
+    "publishers": {
+        "qpm": {
+            "author": {
+                "email": "skycoder42.de@gmx.de",
+                "name": "Skycoder"
+            },
+            "description": "A smart pointer for Qt to create any type on managed shared memory",
+            "name": "de.skycoder42.qipcpointer",
+            "repository": {
+                "type": "GIT",
+                "url": "https://github.com/Skycoder42/QIpcPointer.git"
+            },
+            "webpage": "https://github.com/Skycoder42/QIpcPointer"
+        }
+    },
+    "qbsFile": "",
+    "source": false
+}
