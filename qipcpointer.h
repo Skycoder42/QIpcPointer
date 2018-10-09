@@ -65,6 +65,7 @@ protected:
 		Ptr *data = nullptr;
 		QSharedMemory::SharedMemoryError errorOverride = QSharedMemory::NoError;
 
+		Data() = default;
 		~Data();
 	};
 	QSharedPointer<Data> d;
